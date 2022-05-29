@@ -1,10 +1,10 @@
 .lights {
     background-color: black;
-    display: block;
     margin-top: 50px;
 
 }
 .light {
     border-radius: 50%;
+    background-color: blueviolet;
     
 }
