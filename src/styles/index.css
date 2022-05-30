@@ -1,6 +1,12 @@
 .lights {
     background-color: black;
     margin-top: 50px;
+    display: block;
+    width: 60px;
+    padding: 5px;
+    height:170px;
+
+
 
 }
 .light {
@@ -8,5 +14,8 @@
     background-color: blueviolet;
     width: 50px;
     height: 50px;
+    margin-bottom: 5px;
+    
+
     
 }
