@@ -2,8 +2,7 @@ import React from "react";
 
 //create your first component
 const TrafficLight = () => {
-	//github.com/FabiofourGeeksacademy/ReactList
-	https: return (
+	return (
 		<div className="container">
 			<div className="lights">
 				<div className="light red glow"></div>
