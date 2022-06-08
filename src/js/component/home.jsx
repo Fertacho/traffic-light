@@ -3,7 +3,7 @@ import { useState } from "react";
 
 //create your first component
 const TrafficLight = () => {
-	const [color, setColor] = useState("yellow");
+	const [color, setColor] = useState("");
 	return (
 		<div className="container">
 			<div className="lights">
@@ -15,12 +15,12 @@ const TrafficLight = () => {
 				<div
 					onClick={() => setColor("yellow")}
 					className={
-						"light yellow " + (color === "red" ? "glow" : "")
+						"light yellow " + (color === "yellow" ? "glow" : "")
 					}></div>
 				<div
 					onClick={() => setColor("green")}
 					className={
-						"light green " + (color === "red" ? "glow" : "")
+						"light green " + (color === "green" ? "glow" : "")
 					}></div>
 			</div>
 		</div>
